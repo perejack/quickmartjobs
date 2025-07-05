@@ -14,7 +14,7 @@ const ApplicationProcess: React.FC = () => {
       icon: <CheckCircle className="h-8 w-8" />,
       title: "Document Verification",
       description: "Our HR team will verify your documents and credentials within 24-48 hours.",
-      requirement: "Required: ID, Certificates",
+      requirement: "Required: Valid ID",
       duration: "24-48 hours"
     },
     {
@@ -144,10 +144,6 @@ const ApplicationProcess: React.FC = () => {
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
                     Two passport-size photos
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Certificate of Good Conduct (may be required)
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />

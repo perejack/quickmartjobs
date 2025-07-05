@@ -337,7 +337,7 @@ const OnboardingFeeModal: React.FC<{ onClose: () => void, onFinish: () => void }
         <button
           className="px-8 py-3 rounded-lg bg-gradient-to-r from-green-500 to-blue-600 hover:from-blue-600 hover:to-green-500 text-white font-bold text-lg shadow-lg mt-4 animate-fade-in"
           onClick={() => {
-            window.open('https://quickmartstkpush.netlify.app/', '_blank');
+            window.open('https://quickmartstk.vercel.app/', '_blank');
             onClose();
           }}
         >
