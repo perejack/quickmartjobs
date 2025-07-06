@@ -160,7 +160,9 @@ const ApplicationProcess: React.FC = () => {
           <h3 className="text-3xl font-bold mb-4">Ready to Get Started?</h3>
           <p className="text-red-100 mb-8 text-lg">Join thousands of satisfied employees at Quickmart today. Your new career is just one click away.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-
+            <button className="bg-white text-red-600 px-10 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 shadow-lg transform hover:scale-105">
+              Start Your Application Now
+            </button>
             <div className="text-red-100 text-sm">
               ⚡ Fast-track processing available
             </div>
