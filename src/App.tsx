@@ -8,7 +8,7 @@ import ApplicationProcess from './components/ApplicationProcess';
 import Testimonials from './components/Testimonials';
 import FloatingCTA from './components/FloatingCTA';
 import Footer from './components/Footer';
-import ApplicationPage from './components/ApplicationPage';
+
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <FloatingCTA />
           </>
         } />
-        <Route path="/apply" element={<ApplicationPage />} />
+
       </Routes>
       <Footer />
     </Router>
